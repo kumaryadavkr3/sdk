@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone your Git repository that contains your REST API code
-                git 'https://github.com/kumaryadavkr3/rky.git'  // Replace with your repository URL
+                git 'https://github.com/kumaryadavkr3/sdk.git'  // Replace with your repository URL
             }
         }
 
